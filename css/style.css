@@ -1,0 +1,635 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --font-family: "Mooli"; 
+    --header-font-color:#3a3a3a; 
+    
+}
+
+html{
+    font-family: var(--font-family);
+    scroll-behavior: smooth;
+   
+}
+
+/* MOBILE  */
+
+/* HEADER */
+
+.logo__link img{
+		width: 75px;
+		height: 75px;
+}
+
+nav ul{
+		position: fixed;
+		width: 100%;
+		height: 100vw;
+		background: #497607;
+		top: 80px;
+		left: 100%;
+		text-align: center;
+		transition: all .3s;
+}
+
+nav ul li {
+		display: block;
+		margin: 50px 0;
+		line-height: 30px;
+}
+
+nav ul li a {
+		text-decoration: none;
+		color: #ffffff;
+		font-size: 1.2rem;
+}
+
+nav ul li a:hover{
+		color: #1f0776;
+		transition: .5s;
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img img{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#check{
+		display: none;
+}
+
+#check:checked ~ ul{
+		left: 0;
+}
+
+
+.checkbtn{
+		display: block;
+		padding: 30px;
+		float: right;
+}
+
+
+/* PRESENTACION*/
+.presentation{
+    width: 100%;
+    background-color: #DEE8CC;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px 10px 15px 15px; 
+}
+
+.principal-container img{
+    width: 100%;
+    /* height: 120px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 5px solid white;
+ 
+}
+
+.secondary-container img{
+    border: 5px solid white;
+    border-radius: 0px 0px 10px 10px; 
+}
+
+.white-logo-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.white-logo-container img{
+    height: 70px;
+    width:70px;
+}
+
+.white-logo-container p{
+    font-size: .9rem;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+/* NOSOTROS */
+.about-us{
+    margin-top: 15px;
+    margin-right: 5px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.h1__title{
+    text-align: center;
+    font-size: 1.3rem;
+    color: #497607;
+}
+
+.about-us__container{
+    margin: 15px 5px;
+    padding: 5px;
+    background-color: rgba(230, 227, 232, 0.4);
+    width: 100%;
+    height: auto;
+    border-radius: 30px 0px 30px 0px;
+
+}
+
+.about-us__container p{
+    margin: 20px 20px;
+    color: #716E6E;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 2;
+}
+
+.about-us__container span {
+    color: #497607;
+    font-weight: bold;
+}
+
+
+/* PRODUCTOS */
+
+
+.products{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 1%;
+}
+
+.card-container{
+	/* max-width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 16px;
+    margin-top: 30px;
+    margin-right: 5px;
+
+}
+
+
+.card {
+    width: 70%;
+    height: auto;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+    margin: 0 auto ;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+    background-color: #EBFAD7;
+}
+
+
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+
+.card p {
+    margin-top: 15px;
+    font-size: 1rem;
+}
+
+
+.card button {
+    background-color: rgb(27, 95, 7);
+    color: white;
+    width: 100px;
+    border: none;
+    padding: 6px 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 11px;
+    font-size: 1.2rem;
+}
+
+.card button:hover {
+    background-color: rgb(44, 149, 13);
+    transition: .5s;
+}
+
+/* FORMULARIO */
+.form-container{
+    width: 100%;
+    height: auto;
+    background-color: #DEE8CC;
+    border-radius: 10px 0px 10px 0px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.form{
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px 10px;
+    background-color: white;
+    width: 90vw;
+    height: auto;
+    border-radius: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form1{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form span{
+    font-size: .8rem;
+}
+
+input{
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #DEE8CC;
+}
+
+textarea{
+    border-radius: 5px;
+    border: none;
+    background-color: #DEE8CC;
+}
+
+.form-button{
+    background-color: rgb(27, 95, 7);
+    color: white;
+    width: 90px;
+    border: none;
+		border-radius: 30px;
+    padding: 3px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 5px 2px 2px 210px;
+    font-size: 0.8rem;
+    text-align: center; 
+
+}
+
+/* FOOTER */
+
+ footer{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+		padding: 5px 25px;
+    align-items: center;
+}
+
+.natural-logo{
+    height: 80px;
+    width: 80px;
+}
+
+.footer-socialMedia-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+		gap: 10px;
+    
+}
+
+.footer-socialMedia-icons img{
+    height: 27px;
+    width: 27px;
+    color: rgb(27, 95, 7);
+    
+}  
+
+/* MEDIA QUERIES */
+
+
+/* TABLET */
+
+@media (min-width: 768px){
+		/* HEAD */
+		.checkbtn{
+				display: none;
+		}
+
+		#check{
+				display: none;
+		}
+		
+		.logo__link{
+				margin-left: 30px;
+		}
+
+		nav ul{
+				top:5px;
+				left: 180px;
+				background: none;
+		}
+
+		nav ul li {
+				display: inline-block;
+				margin: 20px 20px;
+		}
+		nav ul li a{
+				font-size: .9rem;
+				color: #524444;
+		}
+		nav ul li a:hover{
+				color: #497607;
+		}
+
+    /* MAIN */
+    .secondary-container{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    /* PRODUCTOS */
+    .card-container{
+        flex-direction: row;
+        margin: 60px 0;
+    }
+
+    .card{
+        width: 25%;
+        height: 240px;
+    }
+
+    /* FORMULARIO */
+    .form-button{
+				width: 110px;
+				border-radius: 20px;
+        padding: 5px 10px;
+				font-size: .9rem;
+    }
+    .botonEnviar{
+        margin-top: 15px;
+        text-align: right;
+    }
+
+    /* FOOTER */
+    .footer-container{
+        height: 160px;
+    }
+
+    .footer-socialMedia-icons {
+        width: 30%;
+        justify-content: space-between;
+    }
+    .footer-socialMedia-icons img {
+        height: 40px;
+        width: 40px;
+    }
+}
+
+/* DESKTOP QUERIES */
+
+@media (min-width: 992px) {
+    /* HEADER */
+		.checkbtn{
+				display: none;
+		}
+
+		#check{
+				display: none;
+		}
+		.logo__link{
+				position: absolute;
+				padding: 10px 70px;
+		}
+		.logo__link img{
+				width: 75px;
+				height: 75px;
+		}
+
+		nav{
+				background: #ffffff;
+				height: 100px;
+				width: 100%;
+        position: relative;
+		}
+
+		nav ul {   
+			  top: 10px;
+			  background: none;
+        position: absolute;
+        left: unset;
+        right: 0;
+        height: unset;
+        width: unset;  
+		}
+        
+		nav ul li {
+				display: inline-block;
+				line-height: 80px;
+				margin: 0 5px;
+				padding: 7px 15px;
+		}
+
+		nav ul li a{
+				text-decoration: none;
+				color: #524444;
+				font-size: 1.1rem;
+				
+		}
+
+		nav ul li a:hover{
+				color: #3f6506;
+				transition: .5s;
+		} 
+
+    /* NOSOTROS */
+    .h1__title{
+        margin-top: 120px ;
+        font-size: 2rem;
+    }
+    .about-us__container{
+        padding: 45px 40px;
+        margin-top: 30px;
+        width: 80vw;
+        height: 500px;
+    }
+    .about-us__container p{
+        font-size: 1.2rem;
+    }
+
+		 /* MAIN */
+		 .principal-container{
+				display: flex;
+				flex-direction: column;
+				height: 500px;
+        width: 100%;
+		}
+
+		.principal-container img{
+				height: 100%;
+        width: 100%;
+		}
+		.secondary-container{
+				display: flex;
+				flex-direction: row;
+        height: 200px;
+        width: 100%;
+				
+		}
+		.principal-container__image{
+				height: 700px;
+		}
+
+		.white-logo-container{
+				margin-top: -100px; 
+		}
+		.white-logo-container img{
+				height: 170px;
+				width:170px;
+		}
+		.white-logo-container p{
+				font-size: 1.5rem;
+		}
+
+    /* PRODUCTOS */
+    .card-container{
+        justify-content: space-between;
+        padding: 20px 10px;
+				gap: 5px;
+        margin-bottom: 100px;
+    }
+
+    .card{
+        width: 28%;
+        height: 350px;
+    }
+
+    .card-container p{
+        margin-top: 40px;
+    }
+
+    .card button{
+        margin-top: 20px;
+        width: 150px;
+        border-radius: 20px;
+        padding: 10px 20px;
+    }
+
+
+    /* FORMULARIO */
+
+		.form-title{
+				margin: 30px;
+		}
+    .form {
+        width: 80vw;
+        height: 600px;
+        padding: 50px 100px;
+        margin-bottom: 30px;
+
+    }
+    .botonEnviar{
+        text-align: right;
+    }
+
+    form{
+        padding: 40px 0px;
+
+    }
+
+    .form-button{
+        width: 200px;
+        font-size: 1.2rem;
+        height: 40px;
+        border-radius: 30px;
+        margin: 30px 0;
+    }
+
+    .form span{
+        font-size: 1.2rem;
+    }
+
+    /* FOOTER */
+    .footer-container{
+        padding: 30px 30px;
+    }
+
+    .natural-logo{
+        width: 120px;
+        height: 120px;
+    }
+
+    .footer-socialMedia-icons{
+        justify-content: space-between;
+        width: 240px;
+    }
+
+    .footer-socialMedia-icons img{
+        width: 60px;
+        height: 60px;
+    }
+
+}
+@media (min-width: 1261px) {
+
+    /* MAIN */
+    .principal-container{
+        height: 650px;
+    }
+    .secondary-container img{
+        width: 100vw;
+        height: auto;
+    }
+    .about-us__container p{
+        font-size: 1.2rem;
+        padding: 20px 10px;
+    }
+    /* PRODUCTOS */
+    .card-container{
+        padding: 0 40px;
+        
+    }
+
+    .card{
+        width: 28%;
+        height: 400px;
+    }
+    .card p{
+        font-size: 1.3rem;
+    }
+    .card button{
+        width: 250px;
+        font-size: 1.6rem;
+    }    
+    .footer-container{
+        padding: 10px 45px;
+    }
+  
+}    
