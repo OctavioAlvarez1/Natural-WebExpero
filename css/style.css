@@ -180,6 +180,7 @@ nav ul li a:hover {
 
 .card {
 	width: 70%;
+	max-width: 280px;
 	height: auto;
 	border-radius: 20px;
 	text-align: center;
@@ -331,11 +332,14 @@ footer {
 	.logo__link {
 		margin-left: 30px;
 	}
-
 	nav ul {
-		top: 5px;
-		left: 180px;
+		top: 10px;
 		background: none;
+		left: unset;
+		right: 0;
+		height: unset;
+		width: unset;
+		position: absolute;
 	}
 
 	nav ul li {
@@ -420,16 +424,6 @@ footer {
 		height: 100px;
 		width: 100%;
 		position: relative;
-	}
-
-	nav ul {
-		top: 10px;
-		background: none;
-		position: absolute;
-		left: unset;
-		right: 0;
-		height: unset;
-		width: unset;
 	}
 
 	nav ul li {
