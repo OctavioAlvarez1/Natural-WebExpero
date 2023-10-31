@@ -179,9 +179,9 @@ nav ul li a:hover {
 }
 
 .card {
-	width: 70%;
+	width: 60%;
 	max-width: 280px;
-	height: auto;
+	height: 225px;
 	border-radius: 20px;
 	text-align: center;
 	padding: 5px;
@@ -203,20 +203,20 @@ nav ul li a:hover {
 }
 
 .card p {
-	margin-top: 15px;
-	font-size: 1rem;
+	margin-top: 8px;
+	font-size: 0.95rem;
 }
 
 .card button {
 	background-color: rgb(27, 95, 7);
 	color: white;
-	width: 100px;
+	width: 120px;
 	border: none;
 	padding: 6px 8px;
 	border-radius: 10px;
 	cursor: pointer;
 	margin-top: 11px;
-	font-size: 1.2rem;
+	font-size: 1rem;
 }
 
 .card button:hover {
@@ -640,19 +640,21 @@ footer {
 	}
 	/* PRODUCTOS */
 	.card-container {
-		padding: 0 40px;
+		justify-content: space-evenly;
 	}
 
 	.card {
-		width: 28%;
-		height: 400px;
+		width: 20%;
+		height: 330px;
+		margin: 3px;
 	}
 	.card p {
-		font-size: 1.3rem;
+		font-size: 1rem;
+		background-color: #dcf0bd;
 	}
 	.card button {
-		width: 250px;
-		font-size: 1.6rem;
+		width: 190px;
+		font-size: 1.2rem;
 	}
 	.footer-container {
 		padding: 10px 45px;
