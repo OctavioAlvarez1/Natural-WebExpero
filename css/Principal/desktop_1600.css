@@ -1,0 +1,14 @@
+/* DESKTOP 1600 - MEDIA QUERIES  */
+
+/* MAIN */
+.about-us__container p {
+	font-size: 1.5rem;
+	padding: 20px 10px;
+}
+
+/* PRODUCTS */
+.card {
+	width: 15%;
+	height: 350px;
+	margin: 0px;
+}

@@ -1,0 +1,94 @@
+/* MEDIA QUERIES */
+
+/* TABLET */
+
+/* HEAD */
+.checkbtn {
+	display: none;
+}
+
+#check {
+	display: none;
+}
+
+.logo__link {
+	margin-left: 30px;
+}
+nav ul {
+	top: 10px;
+	background: none;
+	left: unset;
+	right: 0;
+	height: unset;
+	width: unset;
+	position: absolute;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 20px 20px;
+}
+nav ul li a {
+	font-size: 0.9rem;
+	color: #524444;
+}
+nav ul li a:hover {
+	color: #497607;
+}
+
+/* MAIN */
+.secondary-container {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+/* PRODUCTOS */
+.card-container {
+	flex-direction: row;
+	margin: 60px 0;
+}
+
+.card {
+	width: 25%;
+	height: 270px;
+}
+
+/* FORMULARIO */
+
+.form {
+	width: 600px;
+}
+
+.form1 span {
+	font-size: 1rem;
+}
+
+textarea {
+	height: 110px;
+}
+
+.form-button {
+	width: 110px;
+	border-radius: 20px;
+	padding: 5px 10px;
+	font-size: 0.9rem;
+}
+.botonEnviar {
+	margin-top: 15px;
+	text-align: right;
+}
+
+/* FOOTER */
+.footer-container {
+	height: 160px;
+}
+
+.footer-socialMedia-icons {
+	width: 30%;
+	justify-content: space-between;
+}
+.footer-socialMedia-icons img {
+	height: 40px;
+	width: 40px;
+}

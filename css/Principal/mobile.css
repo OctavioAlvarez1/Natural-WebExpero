@@ -79,6 +79,7 @@ nav ul li a:hover {
 /* PRESENTACION*/
 .presentation {
 	width: 100%;
+	height: auto;
 	background-color: #dee8cc;
 	display: flex;
 	flex-direction: column;
@@ -172,10 +173,10 @@ nav ul li a:hover {
 	/* max-width: 100%; */
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: center;
+	flex-wrap: wrap;
 	gap: 16px;
 	margin-top: 30px;
-	margin-right: 5px;
 }
 
 .card {
@@ -353,341 +354,47 @@ footer {
 	filter: sepia(0.3) hue-rotate(80deg) saturate(400%) brightness(1.2);
 }
 
-/* MEDIA QUERIES */
+/* LISTAS */
 
-/* TABLET */
-
-@media (min-width: 768px) {
-	/* HEAD */
-	.checkbtn {
-		display: none;
-	}
-
-	#check {
-		display: none;
-	}
-
-	.logo__link {
-		margin-left: 30px;
-	}
-	nav ul {
-		top: 10px;
-		background: none;
-		left: unset;
-		right: 0;
-		height: unset;
-		width: unset;
-		position: absolute;
-	}
-
-	nav ul li {
-		display: inline-block;
-		margin: 20px 20px;
-	}
-	nav ul li a {
-		font-size: 0.9rem;
-		color: #524444;
-	}
-	nav ul li a:hover {
-		color: #497607;
-	}
-
-	/* MAIN */
-	.secondary-container {
-		display: flex;
-		flex-direction: row;
-		width: 100%;
-	}
-
-	/* PRODUCTOS */
-	.card-container {
-		flex-direction: row;
-		margin: 60px 0;
-	}
-
-	.card {
-		width: 25%;
-		height: 270px;
-	}
-
-	/* FORMULARIO */
-
-	.form {
-		width: 600px;
-	}
-
-	.form1 span {
-		font-size: 1rem;
-	}
-
-	textarea {
-		height: 110px;
-	}
-
-	.form-button {
-		width: 110px;
-		border-radius: 20px;
-		padding: 5px 10px;
-		font-size: 0.9rem;
-	}
-	.botonEnviar {
-		margin-top: 15px;
-		text-align: right;
-	}
-
-	/* FOOTER */
-	.footer-container {
-		height: 160px;
-	}
-
-	.footer-socialMedia-icons {
-		width: 30%;
-		justify-content: space-between;
-	}
-	.footer-socialMedia-icons img {
-		height: 40px;
-		width: 40px;
-	}
+.list-container {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
-/* DESKTOP QUERIES */
-
-@media (min-width: 992px) {
-	/* HEADER */
-	.checkbtn {
-		display: none;
-	}
-
-	#check {
-		display: none;
-	}
-	.logo__link {
-		position: absolute;
-		padding: 10px 70px;
-	}
-	.logo__link img {
-		width: 75px;
-		height: 75px;
-	}
-
-	nav {
-		background: #ffffff;
-		height: 100px;
-		width: 100%;
-		position: relative;
-	}
-
-	nav ul li {
-		display: inline-block;
-		line-height: 80px;
-		margin: 0 5px;
-		padding: 7px 15px;
-	}
-
-	nav ul li a {
-		text-decoration: none;
-		color: #524444;
-		font-size: 1.1rem;
-	}
-
-	nav ul li a:hover {
-		color: #3f6506;
-		transition: 0.5s;
-	}
-
-	/* NOSOTROS */
-	.h1__title {
-		margin-top: 120px;
-		font-size: 2rem;
-	}
-	.about-us__container {
-		padding: 45px 40px;
-		margin-top: 30px;
-		width: 80vw;
-		height: 500px;
-	}
-	.about-us__container p {
-		font-size: 1.2rem;
-	}
-
-	/* MAIN */
-	.principal-container {
-		display: flex;
-		flex-direction: column;
-		height: 500px;
-		width: 100%;
-	}
-
-	.principal-container img {
-		height: 100%;
-		width: 100%;
-	}
-	.secondary-container {
-		display: flex;
-		flex-direction: row;
-		height: 200px;
-		width: 100%;
-	}
-	.principal-container__image {
-		height: 700px;
-	}
-
-	.white-logo-container {
-		margin-top: -100px;
-	}
-	.white-logo-container img {
-		height: 170px;
-		width: 170px;
-		transition: 0.3s;
-	}
-	.white-logo-container img:hover {
-		height: 170px;
-		width: 170px;
-		transform: scale(1.2);
-	}
-
-	.white-logo-container p {
-		font-size: 1.5rem;
-	}
-
-	/* PRODUCTOS */
-	.card-container {
-		justify-content: space-between;
-		padding: 20px 10px;
-		gap: 5px;
-		margin-bottom: 100px;
-	}
-
-	.card {
-		width: 28%;
-		height: 350px;
-	}
-
-	.card-name {
-		font-size: 1.1rem;
-	}
-
-	.card-description {
-		font-size: 0.9rem;
-	}
-	.card button {
-		margin-top: 20px;
-		width: 150px;
-		border-radius: 20px;
-		padding: 10px 20px;
-	}
-
-	/* FORMULARIO */
-
-	.form-title {
-		margin: 30px;
-	}
-	.form {
-		width: 75vw;
-		height: 460px;
-		padding: 10px 40px;
-		margin-bottom: 30px;
-	}
-
-	input {
-		height: 40px;
-	}
-
-	.botonEnviar {
-		margin-top: 2px;
-		text-align: right;
-	}
-
-	form {
-		padding: 40px 0px;
-	}
-
-	.form-button {
-		width: 200px;
-		font-size: 1.2rem;
-		height: 40px;
-		border-radius: 30px;
-		margin: 30px 0;
-	}
-
-	.form span {
-		font-size: 1.2rem;
-	}
-
-	/* FOOTER */
-	.footer-container {
-		padding: 30px 30px;
-	}
-
-	.natural-logo {
-		width: 120px;
-		height: 120px;
-	}
-
-	.footer-socialMedia-icons {
-		justify-content: space-between;
-		width: 240px;
-	}
-
-	.footer-socialMedia-icons img {
-		width: 60px;
-		height: 60px;
-	}
+.list-container h1 {
+	margin-top: 50px;
+	margin-bottom: 30px;
+	font-size: 1.2rem;
+	color: #40670b;
+	font-weight: bold;
 }
-@media (min-width: 1261px) {
-	/* MAIN */
-	.principal-container {
-		height: 650px;
-	}
-	.secondary-container img {
-		width: 100vw;
-		height: auto;
-	}
-	.about-us__container p {
-		font-size: 1.2rem;
-		padding: 20px 10px;
-	}
-	/* PRODUCTOS */
-	.products-container {
-		width: 100%;
-		display: flex;
-		flex-wrap: wrap;
-	}
 
-	.card {
-		width: 20%;
-		height: 350px;
-		margin: 3px;
-	}
-	.card-name {
-		font-size: 1.2rem;
-		color: #3f6506;
-	}
+.list-table {
+	width: 100%;
+	min-width: 100px;
+	max-width: 400px;
+	height: 40vh;
+	margin: 20px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	place-items: center;
+	font-size: 0.75rem;
+	gap: 0.2rem;
+}
 
-	.card-description {
-		font-size: 0.8rem;
-		padding: 0px 10px;
-		color: #676464;
-	}
+.list-table p:nth-child(-n + 4) {
+	font-size: 0.8rem;
+	background-color: #40670b;
+	color: white;
+}
 
-	.card button {
-		width: 190px;
-		font-size: 1.2rem;
-	}
-	.footer-container {
-		padding: 10px 45px;
-	}
-
-	/* FORMULARIO */
-	.form {
-		width: 700px;
-	}
-
-	.form1 span {
-		font-size: 1rem;
-	}
-
-	input {
-		height: 40px;
-	}
+.list-table p {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	padding: 1rem;
+	background-color: #d8dec9;
 }

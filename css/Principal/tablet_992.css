@@ -1,0 +1,184 @@
+/* TABLET 992 QUERIES */
+
+/* HEADER */
+.checkbtn {
+	display: none;
+}
+
+#check {
+	display: none;
+}
+.logo__link {
+	position: absolute;
+	padding: 10px 70px;
+}
+.logo__link img {
+	width: 75px;
+	height: 75px;
+}
+
+nav {
+	background: #ffffff;
+	height: 100px;
+	width: 100%;
+	position: relative;
+}
+
+nav ul li {
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+	padding: 7px 15px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #524444;
+	font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+	color: #3f6506;
+	transition: 0.5s;
+}
+
+/* NOSOTROS */
+.h1__title {
+	margin-top: 120px;
+	font-size: 2rem;
+}
+.about-us__container {
+	padding: 45px 40px;
+	margin-top: 30px;
+	width: 80vw;
+	height: 500px;
+}
+.about-us__container p {
+	font-size: 1.2rem;
+}
+
+/* MAIN */
+.principal-container {
+	display: flex;
+	flex-direction: column;
+	height: 500px;
+	width: 100%;
+}
+
+.principal-container img {
+	height: 100%;
+	width: 100%;
+}
+.secondary-container {
+	display: flex;
+	flex-direction: row;
+	height: 200px;
+	width: 100%;
+}
+.principal-container__image {
+	height: 700px;
+}
+
+.white-logo-container {
+	margin-top: -100px;
+}
+.white-logo-container img {
+	height: 170px;
+	width: 170px;
+	transition: 0.3s;
+}
+.white-logo-container img:hover {
+	height: 170px;
+	width: 170px;
+	transform: scale(1.2);
+}
+
+.white-logo-container p {
+	font-size: 1.5rem;
+}
+
+/* PRODUCTOS */
+.card-container {
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.card {
+	width: 28%;
+	height: 350px;
+}
+
+.card-name {
+	font-size: 1.1rem;
+}
+
+.card-description {
+	font-size: 0.9rem;
+}
+.card button {
+	margin-top: 20px;
+	width: 150px;
+	border-radius: 20px;
+	padding: 10px 20px;
+}
+
+/* FORMULARIO */
+
+.form-title {
+	margin: 30px;
+}
+.form {
+	width: 75vw;
+	height: 460px;
+	padding: 10px 40px;
+	margin-bottom: 30px;
+}
+
+input {
+	height: 40px;
+}
+
+.botonEnviar {
+	margin-top: 2px;
+	text-align: right;
+}
+
+form {
+	padding: 40px 0px;
+}
+
+.form-button {
+	width: 200px;
+	font-size: 1.2rem;
+	height: 40px;
+	border-radius: 30px;
+	margin: 30px 0;
+}
+
+.form span {
+	font-size: 1.2rem;
+}
+
+/* FOOTER */
+.footer-container {
+	padding: 30px 30px;
+}
+
+.natural-logo {
+	width: 120px;
+	height: 120px;
+}
+
+.footer-socialMedia-icons {
+	justify-content: space-between;
+	width: 240px;
+}
+
+.footer-socialMedia-icons img {
+	width: 60px;
+	height: 60px;
+}
