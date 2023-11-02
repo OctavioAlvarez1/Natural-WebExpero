@@ -60,3 +60,37 @@
 input {
 	height: 40px;
 }
+
+/* LISTAS */
+
+.list-table {
+	min-width: 400px;
+	max-width: 900px;
+	height: auto;
+	margin: 20px;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	place-items: center;
+	font-size: 0.75rem;
+	gap: 0.1rem;
+}
+
+.list-container img {
+	display: block;
+	width: 140px;
+	height: 70px;
+}
+
+.list-table p:nth-child(-n + 5) {
+	font-size: 1rem;
+	background-color: #40670b;
+	color: white;
+}
+
+.list-table p {
+	width: 100%;
+	height: 100%;
+	background-color: #d8dec9;
+	font-size: 0.85rem;
+	text-align: center;
+}

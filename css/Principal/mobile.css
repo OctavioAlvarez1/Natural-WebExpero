@@ -362,12 +362,21 @@ footer {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	text-align: center;
 	background: rgb(245, 246, 242);
 	background: linear-gradient(
 		180deg,
 		rgba(245, 246, 242, 1) 0%,
 		rgba(255, 255, 255, 1) 100%
 	);
+}
+
+.list-container img {
+	display: none;
+}
+
+.list-container .img-title {
+	display: none;
 }
 
 .list-container h1 {
@@ -386,12 +395,14 @@ footer {
 	margin: 20px;
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
+	align-items: center;
+	justify-items: center;
 	place-items: center;
 	font-size: 0.75rem;
 	gap: 0.1rem;
 }
 
-.list-table p:nth-child(-n + 4) {
+.list-table p:nth-child(-n + 5) {
 	font-size: 0.8rem;
 	background-color: #40670b;
 	color: white;
