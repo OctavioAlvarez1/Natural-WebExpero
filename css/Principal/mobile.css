@@ -193,7 +193,8 @@ nav ul li a:hover {
 }
 
 .card:hover {
-	transform: scale(1.2);
+	transform: scale(1.02);
+	box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.5);
 }
 
 .card img {
