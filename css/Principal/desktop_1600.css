@@ -21,3 +21,8 @@
 	color: #40670b;
 	font-weight: bold;
 }
+
+/* CARDS */
+.list-card-container {
+	display: none;
+}

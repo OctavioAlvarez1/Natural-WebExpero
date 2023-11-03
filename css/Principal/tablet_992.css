@@ -100,7 +100,7 @@ nav ul li a:hover {
 /* PRODUCTOS */
 .card-container {
 	justify-content: space-between;
-	align-items: center;
+	/* align-items: center; */
 	flex-wrap: wrap;
 	margin: 0 auto;
 	padding-top: 100px;
@@ -212,4 +212,9 @@ form {
 	font-size: 0.8rem;
 	align-self: center;
 	text-align: center;
+}
+
+/* CARDS */
+.list-card-container {
+	display: none;
 }

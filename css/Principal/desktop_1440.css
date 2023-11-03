@@ -93,3 +93,8 @@ input {
 	background-color: #d8dec9;
 	font-size: 0.85rem;
 }
+
+/* CARDS */
+.list-card-container {
+	display: none;
+}
